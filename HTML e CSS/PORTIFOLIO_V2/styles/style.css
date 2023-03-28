@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --primary: #FB2576;
+    --secundary: #22D4FD;
+    --background: #000000;
+    --hover: #150050;
+
+    --font-title: 'Krona One', sans-serif;
+    --font-content: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background);
+    box-sizing: border-box;
+    color: var(--secundary);
+    font-family: var(--font-content);
+    font-size: 1.5rem;
+}
+
+.header {
+    padding: 3% 0 0 15%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu--link {
+    color: var(--primary);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    gap: 82px;
+    justify-content: space-between;
+    padding: 5% 15%;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+.main__content--title {
+    font-family: var(--font-title);
+    font-size: 2.25rem;
+}
+
+.main__content--text {
+    font-weight: 400;
+}
+
+.strong {
+    color: var(--primary);
+}
+
+.main__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.main__links--subtitle {
+    font-family: var(--font-title);
+    font-weight: 400;
+}
+
+.main__links--button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    color: var(--secundary);
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+}
+
+.main__links--button:hover {
+    background-color: var(--hover);
+    transition: 900ms;
+}
+
+.main__img {
+    width: 50%;
+}
+
+.footer {
+    background-color: var(--primary);
+    color: var(--background);
+    font-weight: 400;
+    padding: 24px;
+    text-align: center;
+}
+
+@media (max-width: 1280px) {
+    .header {
+        padding: 10%;
+    }
+
+    .header__menu {
+        justify-content: center;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .main__content {
+        width: auto;
+    }
+
+}
