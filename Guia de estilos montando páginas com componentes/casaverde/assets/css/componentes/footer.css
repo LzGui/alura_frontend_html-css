@@ -1,0 +1,38 @@
+.footer{
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    background-color: var(--white
+    );
+    background-image: url(../../img/splash-rodape.png);
+    background-position: top -11rem right;
+    background-repeat: no-repeat;
+}
+
+.footer__logo {
+    max-width: 11.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.footer__social {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.footer__social-midia {
+    display: inline-block;
+    width: 1.625rem;
+    height: 1.625rem;
+    margin-right: 1.625rem;
+}
+
+.footer__unit {
+    margin-bottom: 2rem;
+}
+
+.footer__unit-title {
+    color: var(--black);
+    font-size: var(--emphasis-size);
+    font-weight: var(--weight-emphasis);
+    display: block;
+    margin-bottom: .5rem;
+}

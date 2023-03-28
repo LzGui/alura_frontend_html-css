@@ -1,0 +1,35 @@
+.card-video {
+    margin-bottom: 2rem;
+}
+
+.card-video__video{
+    margin-bottom: .5rem;
+    max-height: 17.5rem;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.card-video__video::before {
+    background-color: var(--white);
+    background-image: url(../../img/icon/play.svg);
+    background-repeat: no-repeat;
+    background-size: 1.75rem;
+    background-position: center left 55%;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 4.875rem;
+    width: 4.875rem;
+}
+
+.card-video__title {
+    color: var(--black);
+    font-size: var(--emphasis-size);
+    font-weight: var(--weight-emphasis);
+    margin-bottom: .5rem;
+}

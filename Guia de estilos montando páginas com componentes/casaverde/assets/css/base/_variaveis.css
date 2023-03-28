@@ -1,0 +1,21 @@
+:root {
+    --yellow: #FFCB47;
+    --yellow-transp: #FFCB473D;
+    --white: #FFFFFF;
+    --grey: #909090;
+    --black: #202020;
+    --black-transp: #0000000F;
+
+    --body-family: 'Monstserrat', sans-serif;
+    --family-title-emphasis: 'Elsie Swash Caps', serif;
+    
+    --body-size: 1rem;
+    --title-size: 1.375rem;
+    --title-emphasis-size: 2rem;
+    --emphasis-size: 1.375rem;
+    
+    --weight-emphasis: 700;
+    --weight-title-emphasis: 900;
+    --weight-button: 700;
+
+}

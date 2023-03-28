@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Casa Verde</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="assets/css/componentes/header.css">
+    <link rel="stylesheet" href="assets/css/componentes/buttons.css">
+    <link rel="stylesheet" href="assets/css/componentes/input.css">
+    <link rel="stylesheet" href="assets/css/componentes/card.css">
+    <link rel="stylesheet" href="assets/css/componentes/items.css">
+    <link rel="stylesheet" href="assets/css/componentes/products.css">
+    <link rel="stylesheet" href="assets/css/componentes/videos.css">
+    <link rel="stylesheet" href="assets/css/componentes/footer.css">
+</head>
+
+<body>
+    <header class="container header">
+        <img src="assets/img/logo.svg" alt="Logo casa Verde" class="header__logo">
+        <a href="#" aria-label="Meu Carrinho">
+            <img src="assets/img/icon/carrinho.svg" alt="Ícone do Carrinho de compras" class="header__cart">
+        </a>
+    </header>
+    <main class="container">
+        <input type="email" class="input input--icon input--mail" placeholder="Insira seu e-mail"
+        aria-label="Insira seu e-mail">
+        <button class="button">Assinar Newsletter</button>
+        <button class="button button--alt">Conteúdo</button>
+
+        <article class="card">
+            <h2 class="title align-center">Como conseguir<span class="title--emphasis align-center">minha planta</span>
+            </h2>
+            <ul class="lista-item">
+                <li class="item">
+                    <span class="item__icon item__icon--cursor"></span>
+                    <p>Escolha suas plantas</p>
+                </li>
+                <li class="item">
+                    <span class="item__icon item__icon--cart"></span>
+                    <p>Faça seu pedido</p>
+                </li>
+                <li class="item">
+                    <span class="item__icon item__icon--truck"></span>
+                    <p>Aguarde na sua casa</p>
+                </li>
+            </ul>
+        </article>
+        <article class="product">
+            <img src="assets/img/produto-01.png" alt="Foto do produto 1" class="product__img">
+            <div class="product__content">
+                <h3 class="product__title title--emphasis">Ajuga Reptans</h3>
+                <p class="product__price">R$ 20,00</p>
+                <a href="#" class="product__buy">Comprar<span class="product__buy--icon"></span></a>
+            </div>
+        </article>
+        <article class="card-video">
+            <div class="card-video__video"><img src="https://picsum.photos/278/252" alt="banner vídeo"></div>
+            <h3 class="card-video__title">Vídeo XYZ</h3>
+            <p>Publicado em março de 2019</p>
+        </article>
+    </main>
+    <footer class="container footer">
+        <img src="assets/img/logo.svg" alt="Logo Casa Verde" class="footer__logo">
+        <ul class="footer__social">
+            <li><a href="#" class="footer__social-midia"><img src="assets/img/icon/facebook.svg" alt="ícone facebook" title="Facebook"></a></li>
+            <li><a href="#" class="footer__social-midia"><img src="assets/img/icon/twitter.svg" alt="ícone twitter" title="Twitter"></a></li>
+            <li><a href="#" class="footer__social-midia"><img src="assets/img/icon/instagram.svg" alt="ícone instagram" title="Instagram"></a></li>
+        </ul>
+        <address class="footer__unit title">
+            <span class="footer__unit-title">Rio de Janeiro</span>
+            Rua: Siqueira Campos, 171, 303 <br>
+            Copacabana <br>
+            Telefone: (21) 9.9876-0099 <br>
+        </address>
+        <address class="footer__unit title">
+            <span class="footer__unit-title">São Paulo</span>
+            Rua: Anita Garibaldi, 33, 13 <br>
+            Sé <br>
+            Telefone: (21) 9.9875-2201 <br>
+        </address>
+    </footer>
+</body>
+
+</html>
